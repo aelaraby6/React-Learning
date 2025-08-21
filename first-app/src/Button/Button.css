@@ -1,0 +1,8 @@
+.btn{
+    border: none;
+    background-color: darkmagenta;
+    color: white;
+    padding: 7px;
+    margin: 5px;
+    border-radius: 5px;
+}
