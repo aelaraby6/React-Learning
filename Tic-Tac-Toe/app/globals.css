@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #1e2a40;
+}
+
+.title {
+  color: white;
+  font-size: 40px;
+  font-family: monospace; 
+  white-space: nowrap;    
+  overflow: hidden;       
+  border-right: 2px solid white; 
+  width: 0;             
+  animation: typing 4s steps(12, end) forwards, blink 0.7s step-end infinite;
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to   { width: 12ch } 
+}
+
+@keyframes blink {
+  50% { border-color: transparent }
+}
+
+
+.gameBoard {
+  width: 400px;
+  height: 400px;
+  display: flex;
+  flex-wrap: wrap;
+  border-radius: 10px;
+  background-color: #3d4d68;
+  gap: 10px;
+  padding: 15px;
+}
+
+.square {
+  width: calc((400px - 20px) / 3);
+  height: calc((400px - 20px) / 3);
+  box-sizing: border-box;
+  border-radius: 15px;
+  background-color: #1e2a40;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cross, .circle {
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  font-size: 3.5rem;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+.cross {
+  color: #64C57A; 
+}
+
+.circle {
+  color: #F2A7A7; 
+}
+.current-player {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.5rem;
+  color: #fff;
+  text-align: center;
+}
+
+.current-player span {
+  font-weight: bold;
+}
