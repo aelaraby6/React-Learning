@@ -1,6 +1,9 @@
-.post{
-    width: 400px;
-    margin: 15px;
-    padding: 10px;
-    border: 3px solid rgb(14, 110, 112) ;
+.post {
+  width: 100%;
+  max-width: 400px;     
+  margin: 15px auto;
+  padding: 10px;
+  border: 3px solid rgb(14, 110, 112);
+  box-sizing: border-box;
 }
+
