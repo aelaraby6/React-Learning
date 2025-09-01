@@ -7,10 +7,19 @@ type cellProps = {
   setGo: Dispatch<SetStateAction<string>>;
   cells: string[];
   setCells: Dispatch<SetStateAction<string[]>>;
+  winningMsg: string;
 };
 
-export default function Cell({ id, go, setGo, cells, setCells }: cellProps) {
+export default function Cell({
+  id,
+  go,
+  setGo,
+  cells,
+  setCells,
+  winningMsg,
+}: cellProps) {
   function handleClick(e: any) {
+    if (winningMsg) return;
     if (cells[id]) return;
 
     handleCellChange(go);

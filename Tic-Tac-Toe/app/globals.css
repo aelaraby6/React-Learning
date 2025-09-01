@@ -74,13 +74,29 @@ body {
 .circle {
   color: #F2A7A7; 
 }
-.current-player {
-  font-family: 'Poppins', sans-serif;
+
+.text{
+font-family: 'Poppins', sans-serif;
   font-size: 1.5rem;
+  font-weight: bold;
   color: #fff;
   text-align: center;
 }
 
-.current-player span {
-  font-weight: bold;
+.win-overlay {
+  position: fixed;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(0,0,0,0.6);
+  color: #fff;
+  font-size: 3rem;
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
 }
