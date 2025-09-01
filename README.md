@@ -18,7 +18,6 @@ The goal is to build small projects to apply concepts and improve skills through
 - A simple XO game built with React.
 - Includes win and draw logic with a basic interface.
 
-![Demo](./Tic-Tac-Toe/assets/demo.gif)  
 [Source Code](./Tic-Tac-Toe)
 
 ---
