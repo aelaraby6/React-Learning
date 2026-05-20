@@ -3,6 +3,70 @@
 This repository is dedicated to practicing and learning **React.js**.  
 The goal is to build small projects to apply concepts and improve skills through hands-on experience.
 
+## What I’m Learning
+
+- React Fundamentals
+  - Components
+  - Props
+  - State
+  - Event Handling
+  - Conditional Rendering
+  - Lists & Keys
+
+- React Hooks
+  - useState
+  - useEffect
+  - useRef
+  - useContext
+  - Custom Hooks
+
+- Routing
+  - React Router
+  - Nested Routes
+  - Dynamic Routes
+
+- State Management
+  - Context API
+  - Redux Toolkit
+  - Zustand
+
+- Styling
+  - CSS Modules
+  - Tailwind CSS
+  - Styled Components
+
+- API Handling
+  - Fetch API
+  - Axios
+  - Async/Await
+
+- Forms & Validation
+  - React Hook Form
+  - Formik
+  - Yup Validation
+
+- Performance Optimization
+  - React.memo
+  - useMemo
+  - useCallback
+  - Lazy Loading
+
+- Backend Integration
+  - Firebase
+  - REST APIs
+  - Authentication with JWT
+
+- Testing
+  - Jest
+  - React Testing Library
+
+- Build Tools & Deployment
+  - Vite
+  - npm
+  - Git & GitHub
+  - Netlify
+  - Vercel
+
 ---
 
 ## Purpose of the Repository
